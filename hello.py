@@ -1,4 +1,8 @@
-print("hello world!")
-x = int(input("input x : "))
-y = int(input("input y : "))
-print(x + y)
+s = set()
+s.add(5)
+s.add(3)
+s.add(2)
+s.add(9)
+s.add(3)
+
+print(s)
