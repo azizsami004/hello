@@ -54,4 +54,14 @@ def announce(f):
 def hello():
     print("Hello, world")
 
-hello()
+# List 
+fruits = ["Apple", "Banana", "Coconut", "Berry", "Lichi"]
+new_list = [x for x in fruits if 'a' in x or 'A' in x]
+numbers = [i for i in range(1, 30, 2) if i != 3]
+
+def cmp(n):
+    return n < 10
+
+numbers.sort(key=cmp)
+
+print(numbers)
